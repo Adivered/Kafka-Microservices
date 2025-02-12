@@ -1,0 +1,32 @@
+# Ignore build artifacts
+*/target/
+*/build/
+*/out/
+
+# Ignore dependency directories
+**/node_modules/
+**/.mvn/
+**/.gradle/
+**/.idea/
+**/.vscode/
+
+# Ignore compiled binaries
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files (optional)
+.env
+*.properties
+
+# Ignore Docker artifacts (if using)
+docker-compose.override.yml
